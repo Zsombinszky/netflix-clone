@@ -1,10 +1,13 @@
-# Netflix Clone
+# 🚀 Netflix like website
 
-This project is a front-end Netflix clone with a Firebase back-end. It uses the TMDB API to fetch movie and TV show data
+![Landing Page Screenshot](./src/assets/netflix.png)
+
+
+This project is a front-end Netflix like website with a Firebase back-end. It uses the TMDB API to fetch movie and TV show data
 and Firebase Authentication to manage user logins. The app is styled with Tailwind CSS and deployed using Firebase
 Hosting.
 
-## Features
+## 💻 Features
 
 - **User Authentication**: Secure login and signup functionality powered by Firebase Authentication.
 - **Movie Data**: Fetches real-time movie and TV show data from the TMDB API.
@@ -12,7 +15,7 @@ Hosting.
   cloud storage).
 - **Responsive Design**: Styled using Tailwind CSS for a sleek, responsive user interface.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **React**: For building the user interface.
 - **Vite**: As the build tool for a faster and leaner development experience.
@@ -43,7 +46,7 @@ VITE_APP_FIREBASE_AUTH_DOMAIN=
 VITE_APP_FIREBASE_PROJECT_ID=
 VITE_APP_FIREBASE_STORAGE_BUCKET=
 VITE_APP_FIREBASE_MESSAGING_SENDER=
-VITE_APP_FIREBASE_APP_ID=1:
+VITE_APP_FIREBASE_APP_ID=
 ```
 
 4. **Start the development server:**
@@ -63,4 +66,4 @@ firebase deploy
 - **Sign Up/Login:** Create an account or log in using Firebase Authentication.
 - **Browse Content:** View movies and TV shows fetched from the TMDB API.
 - **Save Favorites:** Save your favorite movies and shows to your account, with data stored in Firestore.
-- **Responsive Interface:** Enjoy a seamless experience across devices, thanks to Tailwind CSS.
+  - **Responsive Interface:** Enjoy a seamless experience across devices, thanks to Tailwind CSS.
